@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand-name{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: white;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between ;
+    padding: 20px;
+}
+
+ #root > div > div.landing > div.header > div > button > span.MuiButton-label{
+    color: white;
+}
+
+ /*#root > div > div.landing > div.search > form > button > span.MuiIconButton-label > svg{ */
+

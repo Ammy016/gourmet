@@ -1,0 +1,35 @@
+*{
+    
+    box-sizing: border-box;
+    /* font-family: 'Lobster', cursive; */
+    color: black;
+}
+
+
+/* .imgContainer{
+    height:200px;
+     width: 100px; 
+    background-size: cover;
+    background-position: center;
+} */
+
+.card{
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    width: 30%;
+    overflow: hidden;
+}
+.cardBody{
+    padding:5px;
+    /* font-family: 'Playfair Display', serif; */
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px;
+    
+}
+
+.details > p {
+    font-size: 20px;
+}

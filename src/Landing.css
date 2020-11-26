@@ -1,0 +1,7 @@
+.landing{
+    height:65vh;
+    background-image: url('./assets/landing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
