@@ -1,0 +1,14 @@
+.collection{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.featured{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: black;
+}
+.line {
+    border-top : 3px solid black;
+    margin-bottom: 40px;
+}
