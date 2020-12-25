@@ -5,7 +5,7 @@
 .brand-name{
     font-family: 'Lobster', cursive;
     font-size: 36px;
-    color: white;
+    color: black;
 }
 
 .header{
@@ -15,7 +15,10 @@
 }
 
  #root > div > div.landing > div.header > div > button > span.MuiButton-label{
-    color: white;
+    color: black;
+}
+.logIn > Button{
+    margin:5px;
 }
 
  /*#root > div > div.landing > div.search > form > button > span.MuiIconButton-label > svg{ */

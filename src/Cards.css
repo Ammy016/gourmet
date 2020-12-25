@@ -1,7 +1,7 @@
 *{
     
     box-sizing: border-box;
-    /* font-family: 'Lobster', cursive; */
+    font-family: 'Lobster', cursive;
     color: black;
 }
 
@@ -14,22 +14,30 @@
 } */
 
 .card{
-    background-color: rgb(214, 214, 214);
-    border-radius: 10px;
+    background-color: #F1FAEE;
+    /* border-radius: 10px; */
     width: 30%;
     overflow: hidden;
+
 }
 .cardBody{
-    padding:5px;
-    /* font-family: 'Playfair Display', serif; */
+    padding:10px;
+    font-family: cursive, serif;
+    font-weight:300;
+}
+
+.head , .details{
+    margin-top :10px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .details{
     display: flex;
     justify-content: space-between;
     margin: 10px 5px;
-    
+    position:relative;
 }
 
-.details > p {
-    font-size: 20px;
-}

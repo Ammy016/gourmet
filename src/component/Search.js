@@ -12,8 +12,11 @@ function Search() {
     }
     return (
         <div className="search">
-            <form onSubmit={handleSubmit}>
-             <input className="searchBar"  placeholder="In search of taste...." />
+            <p className ="slogan">Food recipes from the best chef around the world</p>
+            <form className="searchForm"onSubmit={handleSubmit}>
+            <label>
+             <input className="searchBar"   />
+            </label> 
              <IconButton type="submit"> 
                  <SearchIcon/>
              </IconButton>

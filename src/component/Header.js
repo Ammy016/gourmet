@@ -7,6 +7,7 @@ function Header() {
         <div className="header">
             <p className="brand-name">Gourmet</p>
             <div className="logIn">
+                <Button>Sign up</Button>
                 <Button >Log In</Button>
             </div>
         </div>
