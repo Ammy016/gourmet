@@ -1,23 +1,19 @@
 .search{
     justify-content: center;
-    min-height:80vh;
+    height:80vh;
     color: white;
     position:relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .slogan{
-     font-family: 'Lobster', cursive;
-     font-size:36px;
-     width:25vw;
-     position:absolute;
-     top: 20%;
-    left: 40%;
+    font-family: 'Lobster', cursive;
+    font-size:36px;      
 }
 .searchForm{
     width:50%;
     margin:auto;
-    position:absolute;
-     top: 40%;
-    left: 40%;
 }
 .searchBar{
     /* background: none; */

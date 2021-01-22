@@ -1,7 +1,6 @@
 import SearchIcon from '@material-ui/icons/Search'
 import IconButton from '@material-ui/core/IconButton';
-import { Input } from '@material-ui/core';
-import React from 'react'
+import React , {useRef , useEffect} from 'react'
 import '../search.css'
 
 function Search() {
@@ -10,18 +9,28 @@ function Search() {
         console.log(event.target[0].value);
         event.target.reset();
     }
+
+    const el = useRef();
+
+    useEffect(() => {
+        el.current.focus();
+        
+    })
+    
+
     return (
-        <div className="search">
+        <div className="search" >
             <p className ="slogan">Food recipes from the best chef around the world</p>
-            <form className="searchForm"onSubmit={handleSubmit}>
-            <label>
-             <input className="searchBar"   />
-            </label> 
-             <IconButton type="submit"> 
-                 <SearchIcon/>
-             </IconButton>
-            </form>
-            
+            <div>
+                <form className="searchForm"onSubmit={handleSubmit}>
+                <label>
+                <input className="searchBar"   ref={el}/>
+                </label> 
+                <IconButton type="submit"> 
+                    <SearchIcon/>
+                </IconButton>
+                </form>
+            </div>
         </div>
     )
 }
